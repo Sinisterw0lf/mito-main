@@ -1,0 +1,79 @@
+@import "reset.css";
+html{
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* background vert */
+.bg-primary {
+  background-color: #b4cfb0;
+}
+
+/* font nunito */
+.font-nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.py-session {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.f-reverse {
+  flex-direction: row-reverse;
+}
+
+.bg-section {
+  background-color: #f2f8f2;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/* header */
+header {
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* hero */
+.wrapper-header__bloc-hero {
+  background-image: url(https://images.unsplash.com/photo-1576398289164-c48dc021b4e1);
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+/* space nav link */
+.wrapper-header__nav a {
+  padding: 0px 5px;
+  color: #fff;
+}
+
+/* border logo */
+.wrapper-header__logo a {
+  font-weight: 900;
+  font-size: 25px;
+  border: 2px #fff solid;
+  border-radius: 0px 10px 0px 10px;
+  color: red;
+  padding: 3px;
+  box-shadow: 6px 4px 4px #99f3bd;
+}
+
+#wrapper-header__logo-newhalf {
+  color: white;
+}

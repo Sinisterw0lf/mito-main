@@ -1,0 +1,47 @@
+@import"header.css";
+@import"reset.css";
+
+.wrapper-header__bloc-hero{
+    height: 50vh;
+}
+
+.img-page{
+    width: 200px;
+  height: 300px;
+  box-shadow: 4px 4px 4px #b4cfb0;
+  border-radius: 30px;
+}
+
+.product-page1{
+    justify-content: center;
+    /* align-items: center; */
+    gap: 40px;
+}
+
+.product-page1__right{
+    /* margin: 10px 0; */
+    padding: 10px 0;
+    
+}
+
+.product-page1 h2{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin: 40px 0;
+    /* color: #99f3bd; */
+}
+
+.product-page1 p{
+    line-height: 3;
+}
+
+.product-page1__right-link{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid{
+color: #b4cfb0;
+}

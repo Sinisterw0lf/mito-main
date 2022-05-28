@@ -1,0 +1,113 @@
+@import "header.css";
+
+footer {
+  color: #fff;
+  padding: 15px;
+}
+
+.wrapper-main {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.wrapper-main__h2 {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #99f3bd;
+}
+
+/* welcome section */
+.wrapper-main__welcome {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.wrapper-main__welcome-block1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 200px;
+  gap: 20px 70px;
+}
+
+.wrapper-main__welcome-block1 h3 {
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+/* find-us section */
+.wrapper-main__find-us {
+  padding: 50px;
+}
+
+.wrapper-main__line1,
+.wrapper-main__line2 {
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 100px;
+}
+
+.city {
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px #b4cfb0;
+  padding: 2.5em;
+  margin: 1em;
+  width: 18%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  background-color: #fff;
+  /* color: #b4cfb0; */
+}
+
+.fa-solid {
+  color: #f00;
+}
+
+/* section team */
+.wrapper-team {
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 0 200px;
+  gap: 55px;
+  font-size: 18px;
+  padding: 35px;
+}
+
+.img-team {
+  width: 200px;
+  height: 300px;
+  box-shadow: 4px 4px 4px #b4cfb0;
+  border-radius: 30px;
+}
+
+.wrapper-team h3 {
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+/* section produit */
+
+.wrapper-main__button {
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* margin-top: 40px;
+  margin-left: 600px;
+  margin-right: 600px; */
+}
+
+.wrapper-main__button a {
+  box-shadow: 4px 4px 4px #b4cfb0;
+  border-radius: 30px;
+  /* width: 50px; */
+  /* height: 50px; */
+  background-color: #fff;
+  padding: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
